@@ -115,3 +115,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Set vim as bash history editor
+set -o vi
+
+# Set vim as editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
