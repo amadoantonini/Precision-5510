@@ -122,3 +122,7 @@ set -o vi
 # Set vim as editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+
+# cuda
+export PATH=/usr/local/cuda-10.2/bin:/usr/local/cuda-10.2/NsightCompute-2019.1${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
