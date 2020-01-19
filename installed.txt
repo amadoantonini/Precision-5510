@@ -14,3 +14,10 @@ sudo apt-get -y install cuda
 
 # tmux
 sudo apt install tmux
+
+# python
+sudo apt install python3-pip
+PyCharm
+
+# gnome
+sudo apt install chrome-gnome-shell
