@@ -20,9 +20,29 @@ sudo apt install python3
 sudo apt install python3-pip
 PyCharm
 
+# pip
+pip install numpy cython
+
 # gnome
 sudo apt install chrome-gnome-shell
 
 # cmake
 sudo apt install cmake
 sudo apt install cmake-curses-gui
+
+# htop
+sudo apt install htop
+
+# QtCreator
+wget http://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run
+chmod +x qt-unified-linux-x64-online.run 
+./qt-unified-linux-x64-online.run 
+
+# c++
+sudo apt install clang
+
+# OpenGL, GLFW, GLEW
+sudo apt install libgl1-mesa-dev mesa-utils libglfw3 libglfw3-dev libglew-dev glew-utils libglew2.0
+
+# perf (performance analyzer for Linux)
+sudo apt install linux-tools-common
